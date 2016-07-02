@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/colorBlack"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_weight="1">
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:text="@string/enter_card_balance"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/textView1"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/activity_horizontal_margin"
+            />
+
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+            android:id="@+id/editText_enter_card_balance"
+            android:background="@drawable/edittextstyle"
+            android:layout_weight="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:enabled="true"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical|right"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_weight="1">
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:text="@string/enter_yearly_interest_rate"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/activity_horizontal_margin"
+            />
+
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+            android:id="@+id/editText_enter_yearly_interest_rate"
+            android:background="@drawable/edittextstyle"
+            android:layout_weight="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:enabled="true"
+            android:inputType="numberDecimal"
+            android:gravity="center_vertical|right"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:text="@string/enter_minimum_payment"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/textView3"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/activity_horizontal_margin"
+            />
+
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+            android:id="@+id/editText_enter_minimum_payment"
+            android:background="@drawable/edittextstyle"
+            android:layout_weight="1"
+            android:enabled="true"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:gravity="center_vertical|right"
+            android:textColor="@android:color/black"
+             />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1">
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:text="@string/final_card_balance"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/textView4"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/activity_horizontal_margin"
+            />
+
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+            android:id="@+id/editText_final_card_balance"
+            android:background="@drawable/edittextstyle"
+            android:layout_weight="1"
+            android:enabled="true"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:gravity="center_vertical|right"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:text="@string/months_remaining"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/textView5"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/activity_horizontal_margin"
+            />
+
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+            android:id="@+id/editText_months_remaining"
+            android:background="@drawable/edittextstyle"
+            android:layout_weight="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:enabled="true"
+            android:gravity="center_vertical|right"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:text="@string/interest_paid_will_be"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/textView6"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/activity_horizontal_margin"
+            />
+
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+            android:id="@+id/editText_interest_paid_will_be"
+            android:background="@drawable/edittextstyle"
+            android:layout_weight="1"
+            android:enabled="true"
+            android:gravity="center_vertical|right"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/compute"
+            android:id="@+id/button_compute"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/clear"
+            android:textStyle="bold"
+            android:id="@+id/button_clear"
+            android:layout_weight="1"
+            android:textSize="@dimen/button_text_size"/>
+    </LinearLayout>
+</LinearLayout>
